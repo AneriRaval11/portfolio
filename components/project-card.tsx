@@ -4,7 +4,7 @@ export function ProjectCard({ project }: { project: Project }) {
   return (
     <details
       className="group min-w-0 rounded border border-white/10 bg-zinc-950/40 p-5 transition-colors hover:border-sky-400/40 hover:bg-zinc-950/70"
-      open={project.id === "ai-performance-platform"}
+      open={project.order === 1}
     >
       <summary className="cursor-pointer list-none">
         <div className="flex flex-col items-start gap-4 sm:flex-row sm:justify-between">
@@ -17,12 +17,7 @@ export function ProjectCard({ project }: { project: Project }) {
             </h3>
           </div>
           <span className="shrink-0 rounded-full border border-white/10 px-2 py-1 font-mono text-[0.6rem] uppercase tracking-[0.14em] text-zinc-400 sm:tracking-[0.24em]">
-            0
-            {project.id === "ai-performance-platform"
-              ? 1
-              : project.id === "sachivalay-canteen"
-                ? 2
-                : 3}
+            0{project.order}
           </span>
         </div>
 

@@ -1,35 +1,39 @@
 export const skillGroups = [
   {
-    title: "Languages",
-    items: ["Java", "JavaScript", "C++", "SQL"],
+    title: "Languages & data",
+    items: ["Python", "Pandas", "NumPy", "Matplotlib"],
   },
   {
-    title: "Backend",
-    items: ["Spring Boot", "Node.js", "Express.js", "REST APIs"],
-  },
-  {
-    title: "Frontend / Mobile",
-    items: ["Angular", "React", "React Native"],
-  },
-  {
-    title: "Data & Systems",
-    items: ["PostgreSQL", "MySQL", "MongoDB", "Redis", "RabbitMQ"],
-  },
-  {
-    title: "Cloud",
-    items: ["AWS", "EC2", "S3", "RDS", "ELB", "Auto Scaling", "IAM"],
-  },
-  {
-    title: "AI / GenAI",
-    items: ["RAG", "LLMs", "AI Agents", "LLM Guardrails", "AI Workflows"],
-  },
-  {
-    title: "Engineering",
+    title: "AI & machine learning",
     items: [
-      "System Architecture",
-      "Data Modeling",
-      "Data Processing Pipelines",
-      "Performance Engineering",
+      "Machine Learning",
+      "Deep Learning",
+      "TensorFlow",
+      "Keras",
+      "scikit-learn",
+      "Gaussian Mixture Models",
+    ],
+  },
+  {
+    title: "GenAI & knowledge systems",
+    items: ["Gemini", "LangChain", "FAISS", "LLMs", "Vector Search"],
+  },
+  {
+    title: "Backend & APIs",
+    items: ["Spring Boot", "FastAPI", "REST APIs", "JWT", "RBAC"],
+  },
+  {
+    title: "Delivery & deployment",
+    items: ["Docker", "GitHub Actions", "CI/CD", "Microservices"],
+  },
+  {
+    title: "Research & vision",
+    items: [
+      "Hypothesis Testing",
+      "Statistical Analysis",
+      "Remote Sensing",
+      "OpenCV",
+      "Computer Vision",
     ],
   },
 ];

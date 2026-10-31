@@ -12,22 +12,22 @@ export function TerminalWindow() {
           <span className="text-sky-300">$</span>
           <span className="ml-3">whoami</span>
         </div>
-        <div className="terminal-line text-zinc-50">hetpatel4902</div>
+        <div className="terminal-line text-zinc-50">aneri raval</div>
 
         <div className="terminal-line">
           <span className="text-sky-300">$</span>
           <span className="ml-3">focus</span>
         </div>
-        <div className="terminal-line text-zinc-100">systems</div>
-        <div className="terminal-line text-zinc-100">data</div>
-        <div className="terminal-line text-zinc-100">ai</div>
+        <div className="terminal-line text-zinc-100">applied ai</div>
+        <div className="terminal-line text-zinc-100">backend engineering</div>
+        <div className="terminal-line text-zinc-100">research</div>
 
         <div className="terminal-line">
           <span className="text-sky-300">$</span>
           <span className="ml-3">approach</span>
         </div>
         <div className="terminal-line text-zinc-100">
-          design → build → measure → improve
+          explore → build → share
         </div>
         <div className="terminal-line mt-4 text-sky-300">
           <span className="inline-block h-3 w-2 animate-pulse bg-sky-300 align-middle" />
