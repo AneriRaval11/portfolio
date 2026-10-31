@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, GitBranch, Moon, SunMedium } from "lucide-react";
+import { GitBranch, Moon, SunMedium } from "lucide-react";
 import { useEffect, useSyncExternalStore } from "react";
 
 import { profile } from "@/data/profile";
@@ -112,13 +112,6 @@ export function SiteHeader() {
             className="site-header-button inline-flex h-10 w-10 items-center justify-center rounded-full border transition-colors hover:border-sky-300/50"
           >
             <GitBranch className="site-header-button-icon h-4 w-4" />
-          </a>
-          <a
-            href={profile.resumeHref}
-            className="hidden items-center gap-2 border border-sky-400/40 bg-sky-400/10 px-3 py-2 font-mono text-[0.62rem] uppercase tracking-[0.18em] text-sky-100 transition-colors hover:border-sky-200/60 hover:bg-sky-400/15 sm:inline-flex"
-          >
-            Resume
-            <ArrowUpRight className="h-3.5 w-3.5" />
           </a>
         </div>
       </div>

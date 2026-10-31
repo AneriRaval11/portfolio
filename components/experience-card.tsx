@@ -10,20 +10,15 @@ const companyLogos: Record<
     src: "/images/logos/tcs.png",
     className: "border-white/15 bg-white",
   },
-  TATVASOFT: {
-    label: "TV",
-    src: "/images/logos/tatvasoft.png",
-    className: "border-white/15 bg-white",
-  },
-  "THE KARMIC UNIVERSE": {
-    label: "KU",
-    src: "/images/logos/karmic-universe.jpg",
+  "INDIAN SPACE RESEARCH ORGANISATION": {
+    label: "ISRO",
+    src: "/images/logos/isro.png",
     className: "border-white/15 bg-white",
   },
 };
 
 function CompanyLogo({ name }: { name: string }) {
-  const logo = companyLogos[name];
+  const logo = companyLogos[name.trim().toUpperCase()];
   const fallbackLabel =
     logo?.label ??
     name

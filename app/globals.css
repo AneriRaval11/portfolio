@@ -77,17 +77,40 @@ html.theme-light body {
 
 .page-shell {
   min-height: 100vh;
+  background-color: #070b10;
   background-image:
-    linear-gradient(rgba(148, 163, 184, 0.06) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(148, 163, 184, 0.04) 1px, transparent 1px);
-  background-size: 32px 32px;
-  background-position: center center;
+    radial-gradient(circle at 50% -12rem, rgba(103, 232, 249, 0.09), transparent 42rem),
+    linear-gradient(rgba(148, 163, 184, 0.09) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(148, 163, 184, 0.065) 1px, transparent 1px);
+  background-size: auto, 32px 32px, 32px 32px;
+  background-position: center top, center top, center top;
+  background-attachment: fixed, fixed, fixed;
+}
+
+html.theme-dark .page-shell .bg-zinc-950\/40,
+html.theme-dark .page-shell .bg-zinc-950\/70,
+html.theme-dark .page-shell .bg-white\/\[0\.02\] {
+  background-color: rgba(9, 14, 20, 0.28);
 }
 
 html.theme-light .page-shell {
+  background-color: #eef4f9;
   background-image:
-    linear-gradient(rgba(15, 23, 42, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(15, 23, 42, 0.025) 1px, transparent 1px);
+    radial-gradient(circle at 50% -12rem, rgba(14, 165, 233, 0.11), transparent 42rem),
+    linear-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.032) 1px, transparent 1px);
+}
+
+main > section:not(#work) {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+
+@media (min-width: 640px) {
+  main > section:not(#work) {
+    padding-top: 3.5rem !important;
+    padding-bottom: 3.5rem !important;
+  }
 }
 
 ::selection {

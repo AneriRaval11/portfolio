@@ -1,22 +1,23 @@
 export const profile = {
-  name: "Het Patel",
+  name: "Aneri Raval",
   title: "Software Engineer",
-  positioning: "SOFTWARE × CLOUD × AI",
+  positioning: "AI / BACKEND / RESEARCH",
   heroStatement:
-    "I build software systems that turn complex workflows into something people can actually use.",
+    "I build scalable, production-ready AI applications and turn research ideas into practical software.",
   engineerSummary:
-    "I am a software engineer with 2+ years of professional experience across backend engineering, system architecture, data processing, cloud infrastructure, and GenAI. My work sits between the practical realities of production systems and the long-term design questions that shape them.",
+    "Software engineer at TCS, with hands-on experience in AI and machine learning projects at ISRO. I explore practical GenAI integration, backend engineering, and research-driven applications.",
   navigation: [
     { label: "Work", href: "#work" },
     { label: "Experience", href: "#experience" },
-    { label: "Systems", href: "#systems" },
+    { label: "Projects", href: "#systems" },
     { label: "Research", href: "#research" },
     { label: "About", href: "#about" },
     { label: "Contact", href: "#contact" },
   ],
-  github: "https://github.com/hetpatel4902",
-  linkedIn: "https://www.linkedin.com/in/het-patel-462236201",
-  email: "hetvrunda@gmail.com",
-  resumeHref: "/Het-Patel-Resume.pdf",
+  github: "https://github.com/AneriRaval11",
+  linkedIn: "https://www.linkedin.com/in/aneri-raval-256916214/",
+  medium: "https://medium.com/@ahraval11",
+  sessionize: "https://sessionize.com/aneri-raval/",
+  email: "ahraval11@gmail.com",
   image: "/images/profile.jpg",
 };

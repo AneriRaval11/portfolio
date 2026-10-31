@@ -13,22 +13,21 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://example.com"),
-  title: "Het Patel — Software Engineer | Systems × Data × AI",
+  title: "Aneri Raval — Software Engineer | Applied AI & Backend Engineering",
   description:
-    "Software engineer working at the intersection of backend engineering, system architecture, data processing, cloud infrastructure, and AI/GenAI.",
+    "Portfolio of Aneri Raval, a software engineer at TCS building scalable, production-ready AI applications and exploring practical GenAI integration.",
   keywords: [
-    "Het Patel",
+    "Aneri Raval",
     "Software Engineer",
-    "Backend Engineer",
-    "System Architecture",
-    "Data Processing",
-    "AI / GenAI",
+    "Applied AI",
+    "GenAI",
+    "Backend Engineering",
+    "Machine Learning",
   ],
   openGraph: {
-    title: "Het Patel — Software Engineer | Systems × Data × AI",
+    title: "Aneri Raval — Software Engineer | Applied AI & Backend Engineering",
     description:
-      "Engineering portfolio for Het Patel focused on backend systems, data, AI, and performance-oriented software design.",
+      "Engineering portfolio for Aneri Raval, focused on applied AI, GenAI integration, backend engineering, and machine learning.",
     type: "website",
     locale: "en_US",
   },

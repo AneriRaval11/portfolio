@@ -6,25 +6,9 @@ import type { Project } from "@/data/projects";
 
 export function ProjectCaseStudy({ project }: { project: Project }) {
   const [availableImages, setAvailableImages] = useState<string[]>([]);
-  const knownImages =
-    project.id === "imaze"
-      ? Array.from(
-          { length: 5 },
-          (_, index) => `/images/${project.id}-${index + 1}.jpeg`,
-        )
-      : project.id === "sachivalay-canteen"
-        ? Array.from(
-            { length: 5 },
-            (_, index) => `/images/${project.id}-${index + 1}.jpg`,
-          )
-        : null;
-  const imagesToShow = knownImages ?? availableImages;
+  const imagesToShow = availableImages;
 
   useEffect(() => {
-    if (project.id === "imaze" || project.id === "sachivalay-canteen") {
-      return;
-    }
-
     let mounted = true;
     const found: string[] = [];
     const base = `/images/${project.id}`;
@@ -119,11 +103,7 @@ export function ProjectCaseStudy({ project }: { project: Project }) {
             </div>
           )}
 
-          {project.id === "ai-performance-platform" ? (
-            <div className="mt-6 text-sm text-zinc-400">
-              Visuals omitted for this project.
-            </div>
-          ) : imagesToShow.length > 0 ? (
+          {imagesToShow.length > 0 ? (
             <div className="mt-6 flex max-w-full gap-3 overflow-x-auto pb-2">
               {imagesToShow.slice(0, 5).map((src) => (
                 <Image
