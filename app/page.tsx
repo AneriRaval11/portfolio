@@ -6,6 +6,7 @@ import {
   ArrowRight,
   BookOpen,
   BriefcaseBusiness,
+  Download,
   ExternalLink,
   GitBranch,
   Mail,
@@ -75,6 +76,9 @@ export default function Home() {
               <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
                 <a href="#systems" className="inline-flex w-full items-center justify-center gap-2 border border-sky-400/40 bg-sky-400/10 px-4 py-3 font-mono text-[0.68rem] uppercase tracking-[0.14em] text-sky-100 transition-colors hover:border-sky-300/60 hover:bg-sky-400/15 sm:w-auto sm:px-5 sm:tracking-[0.2em]">
                   View pinned work <ArrowRight className="h-4 w-4" />
+                </a>
+                <a href="/Aneri_Raval_Resume.pdf" download="aneri_raval_resume.pdf" className="inline-flex w-full items-center justify-center gap-2 border border-sky-400/40 bg-sky-400/10 px-4 py-3 font-mono text-[0.68rem] uppercase tracking-[0.14em] text-sky-100 transition-colors hover:border-sky-300/60 hover:bg-sky-400/15 sm:w-auto sm:px-5 sm:tracking-[0.2em]">
+                  <Download className="h-4 w-4" /> Download resume
                 </a>
                 <a href={profile.github} target="_blank" rel="noreferrer" className="inline-flex w-full items-center justify-center gap-2 border border-white/10 bg-white/[0.02] px-4 py-3 font-mono text-[0.68rem] uppercase tracking-[0.14em] text-zinc-100 transition-colors hover:border-white/20 sm:w-auto sm:px-5 sm:tracking-[0.2em]">
                   <GitBranch className="h-4 w-4" /> GitHub
