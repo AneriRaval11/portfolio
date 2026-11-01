@@ -1,167 +1,81 @@
-# Het Patel — Personal Portfolio
+# Aneri Raval — Personal Portfolio
 
-> **Software Engineer · Systems × Data × AI**
+> **Software Engineer · AI/ML Explorer · Research Enthusiast**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Live-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://het-birenkumar-patel-portfolio.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-hetpatel4902-181717?style=for-the-badge&logo=github)](https://github.com/hetpatel4902)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Het%20Patel-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/het-patel-462236201/)
+[![GitHub](https://img.shields.io/badge/GitHub-AneriRaval11-181717?style=for-the-badge&logo=github)](https://github.com/AneriRaval11)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Aneri%20Raval-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/aneri-raval-256916214/)
+[![Medium](https://img.shields.io/badge/Medium-ahraval11-000000?style=for-the-badge&logo=medium)](https://medium.com/@ahraval11)
 
 ---
 
 ## About
 
-This repository contains the source code for my personal portfolio website.
+I'm a **Backend Software Engineer at Tata Consultancy Services (TCS)** with interests spanning backend engineering, applied machine learning, intelligent systems, and scientific research.
 
-The portfolio represents my engineering journey across backend engineering, system architecture, data processing, cloud infrastructure, AI/GenAI, and performance engineering.
+My journey has taken me from building enterprise backend services to research with satellite observations during my internship at the **Indian Space Research Organisation (ISRO)**. I enjoy combining thoughtful engineering with evidence-driven exploration.
 
-Rather than functioning as a traditional resume website, it is designed to showcase **how I build, think about, and approach software systems**.
-
-### Core Identity
-
-**SYSTEMS × DATA × AI**
-
-**Design → Build → Measure → Improve**
+This repository contains the source code for my portfolio website, which brings together my experience, research, projects, and writing.
 
 ---
 
 ## Featured Projects
 
-### AI-Driven Performance Testing & Optimization Platform
+### [SCARAB Deep Convective Cloud Detection](https://github.com/AneriRaval11/scarab-dcc-detection)
 
-An AI-driven performance engineering platform designed to analyze application telemetry, logs, metrics, traces, and historical load-test data to understand application behavior and assist with automated performance testing and optimization.
+Machine-learning research exploring detection of deep convective cloud systems using SAPHIR observations from the Megha-Tropiques mission and SCARAB data.
 
-**Key areas:**
+### [PaperInsight](https://github.com/AneriRaval11/PaperInsight)
 
-- Telemetry analysis
-- Logs, metrics, and traces
-- AI-driven performance scenario generation
-- JMeter / k6 test-script generation
-- Automated test-data generation
-- Test assertions
-- Load-test orchestration
-- Live performance monitoring
-- Bottleneck detection
-- Root-cause analysis
-- Cross-layer performance analysis
-- RAG-powered optimization recommendations
-- JVM tuning
-- SQL optimization
-- Caching
-- Kubernetes and scaling recommendations
+An AI-powered research companion for exploring academic papers, extracting useful information, and asking context-aware questions.
 
-### Imaze
+### [Diabetes Hypothesis Testing](https://github.com/AneriRaval11/diabetes-hypothesis-testing)
 
-A React Native technology-festival platform developed and deployed as a real product.
+A statistical analysis project covering hypothesis testing, adjusted models, and cross-validated prediction.
 
-**Highlights:**
+### [Facial Emotion Recognition](https://github.com/AneriRaval11/Facial_Emotion_Recognition)
 
-- Led end-to-end development
-- Coordinated a team of developers
-- Implemented AWS-based infrastructure
-- Implemented CI/CD workflows
-- 1,500+ downloads
-- 4.7 Play Store rating
+A deep-learning project applying computer vision techniques to facial emotion recognition.
 
-### Food Delivery Platform
+### [Content-Based Movie Recommendation](https://github.com/AneriRaval11/content-based-movie-recommendattion-system)
 
-A multi-sided food-delivery ecosystem consisting of:
+A recommendation system that uses movie metadata such as genres, keywords, cast, and director.
 
-- User application
-- Restaurant Partner application
-- Delivery Partner application
+### [ML Predictive Model Integration with Spring Boot](https://github.com/AneriRaval11/medium-predictive-model-integration-system-with-springboot)
 
-The project explores role-based workflows, backend services, application architecture, and coordination between different participants in a delivery platform.
-
-### Sachivalay Canteen
-
-A digital canteen and meal-ordering application developed for Gujarat Government employees.
-
-The project focuses on digitizing canteen operations and simplifying the meal-ordering workflow through a mobile application.
-
-**Technology:**
-
-- React Native
-- AWS
+An end-to-end purchase prediction application integrating a FastAPI machine-learning service with a Java Spring Boot backend.
 
 ---
 
 ## Professional Experience
 
-### Tata Consultancy Services
+### Tata Consultancy Services (TCS)
 
-**Systems Engineer · Nov 2024 — Present**
+**Backend Software Engineer · November 2024 — Present**
 
-Working across enterprise applications, backend systems, data processing, cloud infrastructure, and AI-enabled workflows.
+Working on enterprise backend engineering for a global retail client.
 
-**Selected areas:**
+- Developing backend services and REST APIs using **Java and Spring Boot**, with **SQL Server, MongoDB, and Kafka**.
+- Contributing to cloud-based application development and integrations in **Microsoft Azure**.
+- Applying engineering quality, security, and observability practices with **SonarQube, Snyk, Semgrep, and Dynatrace**.
+- Presented a Spec-Driven Development initiative to improve engineering practices and team efficiency during the CEO visit, contributing to the team's account-level recognition for AI initiatives from the CEO and CXOs.
 
-- Spring Boot REST APIs
-- Angular applications
-- PostgreSQL architecture
-- Enterprise project-management systems
-- Data processing pipelines
-- API integrations
-- Redis-based performance optimization
-- Technical leadership
-- Full-stack application development
+### Indian Space Research Organisation (ISRO)
 
-### TatvaSoft
+**Research Intern · 1+ year research experience**
 
-**Trainee Software Engineer · Jan 2024 — Oct 2024**
+Conducted satellite-data-driven research focused on detecting deep convective cloud systems.
 
-Worked on backend systems for a Japan-based cryptocurrency platform.
+**Research thesis:** *Development of Machine Learning Methodologies to Detect Deep Convective Cloud Systems in SCARAB using SAPHIR on board Megha-Tropiques.*
 
-**Selected work:**
+First author of the research abstract:
 
-- Node.js REST APIs
-- Wallet transactions
-- Market orders
-- Account management
-- RabbitMQ-based transaction processing
-- Concurrency handling
-- Transaction reliability improvements
-
-### The Karmic Universe
-
-**Backend Developer Intern · Sep 2023 — Dec 2023**
-
-Worked on real-time financial data workflows.
-
-**Selected work:**
-
-- Upstox API integration
-- Real-time market-data retrieval
-- Scheduled data processing
-- Redis caching
-- GPT-based workflows
-- API performance optimization
+> A. Raval, K. Patel, M. V. Shukla. “Development of AI/ML Methodology to Detect DCC in SCARAB using SAPHIR on board Megha-Tropiques.” National Symposium on Tropical Meteorology (TROPMET 2023), Indian Meteorological Society, November 2023. Research abstract; first author.
 
 ---
 
 ## Research & Exploration
 
-### Adaptive Multi-Cloud Routing for Generative AI APIs
-
-A research direction exploring intelligent routing of generative AI requests across multiple providers and models while optimizing multiple competing objectives.
-
-**Optimization dimensions:**
-
-- Latency
-- Throughput
-- Quality
-- Switching Overhead
-- Uncertainty
-
-**Areas being explored:**
-
-- Contextual Multi-Armed Bandits
-- Thompson Sampling
-- Non-stationary environments
-- Embedding-based context
-- Uncertainty-aware routing
-- Multi-provider AI systems
-- Model/provider selection
-- Routing under switching costs
+My interests include **AI agents and memory, applied machine learning, intelligent systems, and scientific machine learning**. I am particularly curious about how AI systems can retain useful context and become more reliable over time.
 
 ---
 
@@ -169,31 +83,31 @@ A research direction exploring intelligent routing of generative AI requests acr
 
 ### Languages
 
-`Java` `JavaScript` `TypeScript` `C++` `SQL`
+`Java` `Python` `SQL`
 
 ### Backend
 
-`Spring Boot` `Node.js` `Express.js` `REST APIs`
+`Spring Boot` `FastAPI` `REST APIs`
 
 ### Frontend & Mobile
 
-`Next.js` `React` `Angular` `React Native`
+`Next.js` `React`
 
 ### Databases & Distributed Systems
 
-`PostgreSQL` `MySQL` `MongoDB` `Redis` `RabbitMQ`
+`SQL Server` `MongoDB` `Kafka`
 
 ### Cloud & Infrastructure
 
-`AWS` `EC2` `S3` `RDS` `ELB` `Auto Scaling` `IAM`
+`Microsoft Azure` `Docker` `GitHub Actions`
 
 ### AI / GenAI
 
-`RAG` `LLMs` `AI Agents` `LLM Guardrails` `AI Workflows`
+`Machine Learning` `Deep Learning` `Generative AI` `AI Agents`
 
 ### Engineering
 
-`System Architecture` `Data Modeling` `Data Processing Pipelines` `Performance Engineering`
+`API Design` `Testing` `Secure Coding` `Observability` `Statistical Analysis`
 
 ---
 
@@ -226,7 +140,7 @@ The website follows a component-based architecture with structured content to ke
 
 ### Clone the repository
 
-`git clone https://github.com/hetpatel4902/portfolio.git`
+`git clone https://github.com/AneriRaval11/portfolio.git`
 
 `cd portfolio`
 
@@ -258,9 +172,7 @@ Run the production server:
 
 ## Deployment
 
-The portfolio is deployed using **Vercel** and connected to GitHub for version control and deployment.
-
-**Live Website:** [het-birenkumar-patel-portfolio.vercel.app](https://het-birenkumar-patel-portfolio.vercel.app/)
+The Next.js application can be deployed to Vercel or another Next.js-compatible hosting provider.
 
 ---
 
@@ -268,19 +180,19 @@ The portfolio is deployed using **Vercel** and connected to GitHub for version c
 
 My current engineering interests are centered around:
 
-**Backend Systems → Distributed Systems → Data & Infrastructure → AI / GenAI → Performance & Optimization**
+**Backend Engineering → AI/ML → Intelligent Systems → Scientific Research**
 
-I am particularly interested in the intersection of software systems, data, cloud infrastructure, and AI.
+I am especially interested in building dependable software and exploring how AI can support engineering and research.
 
 ---
 
 ## Connect
 
-If you're interested in software engineering, distributed systems, AI systems, or technology, feel free to connect.
+If you're interested in backend engineering, AI/ML, research, or intelligent systems, feel free to connect.
 
-- **Portfolio:** [het-birenkumar-patel-portfolio.vercel.app](https://het-birenkumar-patel-portfolio.vercel.app/)
-- **GitHub:** [github.com/hetpatel4902](https://github.com/hetpatel4902)
-- **LinkedIn:** [linkedin.com/in/het-patel-462236201](https://www.linkedin.com/in/het-patel-462236201/)
+- **GitHub:** [github.com/AneriRaval11](https://github.com/AneriRaval11)
+- **LinkedIn:** [linkedin.com/in/aneri-raval-256916214](https://www.linkedin.com/in/aneri-raval-256916214/)
+- **Medium:** [@ahraval11](https://medium.com/@ahraval11)
 
 ---
 
