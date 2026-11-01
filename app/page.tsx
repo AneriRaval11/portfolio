@@ -37,12 +37,12 @@ const mediumPosts = [
 ];
 
 const certifications = [
-  { name: "Microsoft Certified: Azure Developer Associate", image: "/images/az-204.svg" },
-  { name: "Microsoft Certified: Azure Fundamentals", image: "/images/az-900.svg" },
-  { name: "GitHub Actions", image: "/images/gh-200.svg" },
-  { name: "GitHub Certified: Agentic AI Developer", image: "/images/gh-600.svg" },
-  { name: "Claude Certified Associate", image: "/images/ccaof.png" },
-  { name: "Claude Certified Developer", image: "/images/ccdvf.png" },
+  { name: "Microsoft Certified: Azure Developer Associate", issuer: "Microsoft Learn", image: "/images/az-204.svg", href: "https://learn.microsoft.com/api/credentials/share/en-us/AneriRaval-8360/E3B79415D02E3E41?sharingId=9DA31BB50D81026C" },
+  { name: "Microsoft Certified: Azure Fundamentals", issuer: "Microsoft Learn", image: "/images/az-900.svg", href: "https://learn.microsoft.com/api/credentials/share/en-us/AneriRaval-8360/2B3EC1AE91905C13?sharingId=9DA31BB50D81026C" },
+  { name: "GitHub Actions", issuer: "Microsoft Learn", image: "/images/gh-200.svg", href: "https://learn.microsoft.com/api/credentials/share/en-us/AneriRaval-8360/276FBED86A66778A?sharingId=9DA31BB50D81026C" },
+  { name: "GitHub Certified: Agentic AI Developer", issuer: "Microsoft Learn", image: "/images/gh-600.svg", href: "https://learn.microsoft.com/api/credentials/share/en-us/AneriRaval-8360/2BB650E18FD9AE10?sharingId=9DA31BB50D81026C" },
+  { name: "Claude Certified Associate - Foundations", issuer: "Credly", image: "/images/ccaof.png", href: "https://www.credly.com/badges/2e40a7f9-2e60-4d92-b815-79af50426328/linked_in_profile" },
+  { name: "Claude Certified Developer - Foundations", issuer: "Credly", image: "/images/ccdvf.png", href: "https://www.credly.com/badges/f9252412-419c-4b3e-a764-c67764f78903/linked_in_profile" },
 ];
 
 export default function Home() {
@@ -179,12 +179,15 @@ export default function Home() {
           <SectionHeading eyebrow="08 - Certifications" title="Verified learning across cloud, AI, and developer tools." />
           <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {certifications.map((cert) => (
-              <article key={cert.name} className="rounded border border-white/10 bg-zinc-950/25 p-5 transition-colors hover:border-sky-400/40">
+              <a key={cert.name} href={cert.href} target="_blank" rel="noreferrer" aria-label={`Verify ${cert.name} on ${cert.issuer}`} className="group rounded border border-white/10 bg-zinc-950/25 p-5 transition-colors hover:border-sky-400/40 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-sky-300">
                 <div className="flex h-28 items-center justify-center rounded border border-white/10 bg-white/[0.03] p-3">
                   <Image src={cert.image} alt="" width={112} height={112} className="h-full w-auto object-contain" />
                 </div>
-                <h3 className="mt-5 text-lg font-semibold leading-6 text-zinc-50">{cert.name}</h3>
-              </article>
+                <h3 className="mt-5 text-lg font-semibold leading-6 text-zinc-50 transition-colors group-hover:text-sky-200">{cert.name}</h3>
+                <span className="mt-4 inline-flex items-center gap-2 text-sm text-zinc-400 transition-colors group-hover:text-sky-300">
+                  Verify on {cert.issuer} <ExternalLink className="h-3.5 w-3.5" />
+                </span>
+              </a>
             ))}
           </div>
         </motion.section>
